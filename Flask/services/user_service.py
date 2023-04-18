@@ -2,6 +2,7 @@
 
 users = []
 
+
 def user_already_exists(cpf):
     """ Check if user already exists """
     for user in users:
@@ -31,5 +32,14 @@ def get_user(cpf):
     for user in users:
         if user['CPF'] == cpf:
             return user
+
+    return False
+
+def delete_user(cpf):
+    """ Delete user by CPF """
+    for user in users:
+        if user['CPF'] == cpf:
+            users.remove(user)
+            return True
 
     return False
