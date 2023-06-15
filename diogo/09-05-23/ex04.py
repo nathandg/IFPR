@@ -22,22 +22,22 @@ imc = float(peso) / (altura * altura)
 if sexo == 'M' or sexo == 'm':
     if imc < 20.7:
         print('---> Abaixo do peso')
-    elif imc >= 20.7 and imc < 26.4:
+    elif imc >= 20.7 and imc <= 26.4:
         print('---> Peso ideal')
-    elif imc >= 26.4 and imc < 27.8:
+    elif imc > 26.4 and imc <= 27.8:
         print('---> Pouco acima do peso')
-    elif imc >= 27.8 and imc < 31.1:
+    elif imc > 27.8 and imc <= 31.1:
         print('---> Acima do peso ideal')
-    elif imc >= 31.1:
+    elif imc > 31.1:
         print('---> Obeso')
 elif sexo == 'F' or sexo == 'f':
     if imc < 19.1:
         print('---> Abaixo do peso')
-    elif imc >= 19.1 and imc < 25.8:
+    elif imc > 19.1 and imc <= 25.8:
         print('---> Peso ideal')
-    elif imc >= 25.8 and imc < 27.3:
+    elif imc > 25.8 and imc <= 27.3:
         print('---> Pouco acima do peso')
-    elif imc >= 27.3 and imc < 32.3:
+    elif imc > 27.3 and imc <= 32.3:
         print('---> Acima do peso ideal')
     elif imc >= 32.3:
         print('---> Obeso')
