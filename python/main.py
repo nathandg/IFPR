@@ -75,5 +75,3 @@ function_parameters('João', 30)
 function_parameters_optional('João')
 function_parameters_optional('João', 30)
 print(function_return('João', 30))
-
-print('Now you are ready to go!, and remember: "Practice makes perfect!')
