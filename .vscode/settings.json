@@ -5,5 +5,6 @@
     "ÉÁÍÓÚÃÕÂÊÔÇ",
     "oztogram"
   ],
-  "cSpell.language": "en,pt-BR"
+  "cSpell.language": "en,pt-BR",
+  "python.linting.enabled": false
 }
