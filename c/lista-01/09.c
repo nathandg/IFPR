@@ -3,23 +3,23 @@
 
 int main () {
 
-  int nota1, nota2, freq;
+  float nota1, nota2, freq, media;
 
   printf("Digite a primeira nota: ");
-  scanf("%d", &nota1);
+  scanf(" %f", &nota1);
 
   printf("Digite a segunda nota: ");
-  scanf("%d", &nota2);
+  scanf(" %f", &nota2);
 
   printf("Digite a frequência: (0 a 100)");
-  scanf("%d", &freq);
+  scanf(" %f", &freq);
 
   media = nota1 + nota2 / 2;
 
   if (media >= 7 && freq >= 75) {
-    printf('Aprovado')
+    printf("Aprovado");
   } else {
-    printf('Reprovado')
+    printf("Reprovado");
   }
   
   return 0;

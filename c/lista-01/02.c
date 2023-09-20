@@ -8,15 +8,16 @@ int main () {
 
   pi = 3.14159265359;
 
-  printf("Informe a altura do cilindro: ");
+  printf("Informe a altura do tanque: ");
   scanf("%f", &altura);
 
-  printf("Informe o raio do cilindro: ");
+  printf("Informe o raio do tanque: ");
   scanf("%f", &raio);
 
-  m2 = pi * (raio * raio) + (2 * pi * raio * altura);
+  // m2 = pi * (raio * raio) + (2 * pi * raio * altura);
+  m2 = 2 * pi * raio * (altura + raio);
 
-  printf("A área do cilindro é: %.2f\n", m2);
+  printf("A área do tanque é: %.2f\n", m2);
 
   latas = ceil(m2 / 15);
   valor = latas * 50;
